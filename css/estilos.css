@@ -110,3 +110,65 @@ header{
     left: 150px;
     top: 140px; 
  }
+
+ //Esto es del footer
+
+ 
+ .content {
+    min-height: calc(100% - 50px); /* Altura mínima del contenido, ajusta el valor según tus necesidades */
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  .column {
+    padding: 20px;
+    font-size: 15px;
+    }
+  
+    .datos {
+  
+  width: 368px;
+  height: 34px;
+  left: 168px;
+  top: 976px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+    }
+    
