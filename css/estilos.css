@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.parte1 div{
+    display:inline-block;
+}
+header{
+    background-color: rgb(10, 103, 199, 100%);
+    padding: 30px;
+}
+.RedesSociales ul li a{
+    color: white;
+    padding: 3px;
+    font-size: 20px; 
+}
+#fac{
+    left: 100px;
+    top: 50px;
+    position: absolute;
+}
+#ins{
+    left: 50px;
+    top: 50px;
+    position: absolute;
+}
+#twi{
+    left: 150px;
+    top: 50px;
+    position: absolute;
+}
+.RedesSociales ul li{
+    list-style: none;
+}
+.Nombre h1{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    letter-spacing: 15px;
+    text-align: center;
+    font-weight:bolder;
+    text-shadow: 2px 2px 3px black;
+    padding-left: 400px;
+    padding-bottom: 10px;
+}
+.loginCarr ul li a {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#login{
+    left: 1130px;
+    top: 40px;
+}
+#carrito{
+    left: 1130px;
+    top: 80px;
+}
+.loginCarr ul li{
+    list-style: none;
+
+}
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parte2 div{
+    display: inline-flex;
+}
+.menu ul li {
+    display: inline-flex;
+    letter-spacing: 3px;
+}
+#boton{
+    position: absolute;
+    left: 1150px;
+    top: 136px;
+}
+#espacio{
+    position: absolute;
+    left: 966px;
+    top: 140px;
+}
+#lupa{
+    position: absolute;
+    left: 940px;
+    top: 140px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+#prom{
+   position: absolute;
+   left: 600px;
+   top: 140px; 
+}
+#cat{
+    position: absolute;
+    left: 350px;
+    top: 140px; 
+ }
+ #ini{
+    position: absolute;
+    left: 150px;
+    top: 140px; 
+ }
