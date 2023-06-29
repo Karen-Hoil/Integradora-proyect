@@ -145,3 +145,22 @@ header{
   line-height: 39px;
 
     }
+
+    /*aqui comienza el perfil de usuario*/
+.Cuenta {
+    color: #4A5788;
+    padding: 2rem; 
+ }
+
+.detalles {
+    padding: 1rem;
+}
+
+.datos {
+    padding: 1rem;
+    
+}
+
+.pedido { /*por alguna razon no se aplica el estilo*/
+    font-size: 30px;
+}
