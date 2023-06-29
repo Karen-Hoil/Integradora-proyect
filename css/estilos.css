@@ -113,3 +113,35 @@ header{
 
  /*Esto es del footer*/
 
+ .info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    font-family: 'Montserrat', sans-serif;
+  }
+  .column {
+    padding: 20px;
+    font-size: 15px;
+    }
+  
+    .cuenta {
+      font-size: 40px;
+      display: flex;
+      color: #0A67C7;
+      
+    }
+  
+    .datos {
+  
+  width: 368px;
+  height: 34px;
+  left: 168px;
+  top: 976px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+    }
