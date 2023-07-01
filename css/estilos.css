@@ -177,3 +177,40 @@ header{
 .pedido { /*por alguna razon no se aplica el estilo*/
     font-size: 30px;
 }
+
+/*este es el carrito de compra*/
+
+.carrito {
+    padding: 2rem;
+    color: #4A5788;
+}
+
+.container { /*estos son los producto (me ayudo chat gtp)*/
+    margin-bottom: 20px;
+  }
+
+  .image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .contenedor {
+    text-align: center;
+  }
+
+.buy {
+    background-color:#BC3636;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+   
+}
