@@ -210,6 +210,45 @@ header{
     
 } */
 
+
+/*carrito*/
+.carrito {
+    color: #4A5788;
+    padding: 2rem; 
+ }
+
+.container {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.contenedor {
+    text-align: center;
+
+}
+
+.buy {
+    background-color: #BC3636;
+    color: white;
+    border: none;
+    padding: 13px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+}
+/*footer2*/
+
 .footer1{
    
     width: 1520px; height: 503px;
