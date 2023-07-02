@@ -136,7 +136,12 @@ header{
     margin-top: 13px;
  }
  
+/*slider*/
 
+.carousel-item img {
+    height: 300px; /* Ajusta la altura de las imágenes según tu preferencia */
+    object-fit: cover;
+  }
 
  /*Esto es del footer*/
 
