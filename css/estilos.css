@@ -177,3 +177,105 @@ header{
 .pedido { /*por alguna razon no se aplica el estilo*/
     font-size: 30px;
 }
+/* #image105 {
+
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 500px;
+    top: 3978.21px;
+    
+    background: url(image105.png); 
+    transform: rotate(-0.83deg);
+    font-size: 100px;
+    
+} */
+
+.footer1{
+   
+    width: 1520px; height: 503px;
+    /* margin-bottom: 10px; */
+     /* left: 0px; top: 2958px; */
+     position: absolute; 
+     background: rgba(88.01, 176.97, 205.06, 0.93);
+     border-radius: 57px;
+    padding: 30px;
+}
+.footer2{
+    position: absolute;
+    margin-top: 460px;
+    width: 1520px; 
+    height: 367px;
+     background: #D9D9D9;
+     
+}
+.paletapayaso{
+    background-image: url("imagen\image 105.png");
+    background-size: cover;
+}
+
+#footer_correo{
+    left: 23.3%;
+    position: absolute;
+    top: 272px;
+    height: 81px;
+    width: 737px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+    font-size: 100%;
+    opacity: 0.85;
+    background: white;
+    color: rgb(4, 4, 4);
+    cursor: pointer;
+    outline: none;
+    border-radius: 40.5px;
+
+}
+.footer_correo_boton{
+     position: absolute;
+    /*color: green;*/
+    left: 990px;
+    top: 272px;  
+    width: 161px;
+     height: 81px; 
+     background: #FBE200; 
+     border-radius: 40.50px;
+     border-style: solid;
+     border-color: #FBE200;
+}
+.inputEmail{
+    opacity: 1;
+
+
+}
+
+.footer_registrate_text{
+    
+     width: 570px;
+    height: 112px; 
+    font-family: 'Kalam', cursive;
+   
+    font-size: 70px;
+    letter-spacing: 3px;
+    left: 442px; 
+    top: 050px; 
+    position: absolute; 
+    text-align: center; 
+    color: rgba(39.31, 30.79, 30.79, 0.74); 
+    font-size: 48px; 
+    font-family: Coiny; 
+    font-weight: 400;
+    word-wrap: break-word;
+   
+    font-weight: bold;
+    
+    
+     
+       
+}
+
+#footer_correo::placeholder {
+    font-size: 35px; /* Cambia el tamaño del texto del placeholder */
+  }
+  
