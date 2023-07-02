@@ -12,21 +12,22 @@ header{
 .RedesSociales ul li a{
     color: white;
     padding: 3px;
-    font-size: 20px; 
+    margin-top: -25px; 
+    font-size: 25px;
 }
 #fac{
-    left: 100px;
-    top: 50px;
+    left: 110px;
+    top: 60px;
     position: absolute;
 }
 #ins{
     left: 50px;
-    top: 50px;
+    top: 60px;
     position: absolute;
 }
 #twi{
-    left: 150px;
-    top: 50px;
+    left: 170px;
+    top: 60px;
     position: absolute;
 }
 .RedesSociales ul li{
@@ -36,29 +37,33 @@ header{
     color: white;
     font-family: 'Kalam', cursive;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    font-size: 70px;
+    font-size: 85px;
     letter-spacing: 15px;
     text-align: center;
     font-weight:bolder;
     text-shadow: 2px 2px 3px black;
-    padding-left: 400px;
+    padding-left: 350px;
     padding-bottom: 10px;
+    margin-top: -10px;
 }
 .loginCarr ul li a {
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     position: absolute;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 #login{
-    left: 1130px;
-    top: 40px;
+    left: 1100px;
+    top: 60px;
+    font-size: 23px;
+    margin-top: -15px;
 }
 #carrito{
-    left: 1130px;
-    top: 80px;
+    left: 1100px;
+    top: 95px;
+    font-size: 23px;
 }
 .loginCarr ul li{
     list-style: none;
@@ -80,61 +85,75 @@ header{
 }
 #boton{
     position: absolute;
-    left: 1260px;
+    left: 1400px;
     top: 136px;
 }
 #espacio{
     position: absolute;
-    left: 1050px;
-    top: 140px;
-    border-width: 3px;
+    left: 990px;
+    top: 155px;
+
+     
+    border-width: 5px;
     border-style: solid;
     border-color: #073767;
-    font-size: 110%;
+    font-size: 20px;
     opacity: 0.85;
     background: #073767;
     color: white;
-    cursor: pointer;
     outline: none;
     border-radius: 30px;
 }
 #lupa{
     position: absolute;
-    left: 1058px;
-    top: 140px;
+    left: 960px;
+    top: 155px;
     color: black;
     font-weight: bold;
-    font-size: 20px;
-
-    
+    font-size: 25px;
 }
+    
+
 #prom{
    position: absolute;
-   left: 600px;
+   left: 650px;
    top: 140px; 
+   font-size: 25px;
+   margin-top: 13px;
 }
 #cat{
     position: absolute;
     left: 350px;
     top: 140px; 
+    font-size: 25px;
+    margin-top: 13px;
  }
  #ini{
     position: absolute;
     left: 150px;
     top: 140px; 
+    font-size: 25px;
+    margin-top: 13px;
  }
+ 
+
 
  /*Esto es del footer*/
 
+ footer{
+    background-color: rgb(217, 217, 217);
+}
  .info {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px; 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
   }
   .column {
     padding: 20px;
     font-size: 15px;
+    
     }
   
     .cuenta {
@@ -151,7 +170,7 @@ header{
   left: 168px;
   top: 976px;
   
-  font-family: 'Inter';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -176,41 +195,4 @@ header{
 
 .pedido { /*por alguna razon no se aplica el estilo*/
     font-size: 30px;
-}
-
-/*este es el carrito de compra*/
-
-.carrito {
-    padding: 2rem;
-    color: #4A5788;
-}
-
-.container { /*estos son los producto (me ayudo chat gtp)*/
-    margin-bottom: 20px;
-  }
-
-  .image {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-  }
-
-  .text {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
-  .contenedor {
-    text-align: center;
-  }
-
-.buy {
-    background-color:#BC3636;
-    color: white;
-    padding: 13px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 110%;
-   
 }
