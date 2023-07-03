@@ -42,3 +42,25 @@
     margin-left: 8px;
 }
 
+.Image150 {
+    width: 921px;
+    height: 341px;
+    border-radius: 38px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .containerPromociones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .Image149,
+  .Image147 {
+    width: 368px;
+    height: 385px;
+    border-radius: 60px;
+  }
+  
