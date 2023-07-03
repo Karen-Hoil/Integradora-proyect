@@ -292,7 +292,7 @@ header{
 
 .footer1{
    
-    width: 1300px; height: 503px;
+    width: 1510px; height: 503px;
     /* margin-bottom: 10px; */
      /* left: 0px; top: 2958px; */
      position: absolute; 
@@ -303,7 +303,7 @@ header{
 .footer2{
     position: absolute;
     margin-top: 460px;
-    width: 1300px; 
+    width: 1510px; 
     height: 317px;
      background: #D9D9D9;
      
@@ -384,13 +384,13 @@ header{
     text-decoration: none;
     font-family:sans-serif ;
 }
-body{
-    /* background-image: url(https://ganar-ganar.mx/wp-content/uploads/2022/04/ricolino.jpg); */
+/* body{
+    background-image: url(https://ganar-ganar.mx/wp-content/uploads/2022/04/ricolino.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
+} */
  main{
     width: 100%;
     padding: 20px;
