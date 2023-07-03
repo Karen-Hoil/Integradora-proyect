@@ -1,0 +1,44 @@
+.categoria{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.cat-nom h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(74, 87, 136);
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.cat-pri{
+    display: inline-flex;
+}
+.cat-Sec ul li a{
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.cat-Sec{
+    margin-right: 200px;
+}
+.cart-pri{
+    display: flex;
+}
+.cat-seg{
+    display: inline-flex;
+}
+.cat-pr-ca{
+    display: flex;
+}
+.cat-Sec ul li a:hover{
+    color: rgb(10, 103, 199);
+    transition: color;
+}
+.cat-star{
+    display: inline-flex;
+}
+.cat-star i{
+    margin-left: 8px;
+}
+

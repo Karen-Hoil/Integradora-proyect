@@ -140,7 +140,12 @@ header{
 
  /* termina header */
  
+/*slider*/
 
+.carousel-item img {
+    height: 300px; /* Ajusta la altura de las imágenes según tu preferencia */
+    object-fit: cover;
+  }
 
  /*inicia footer*/
 
@@ -157,6 +162,7 @@ header{
   .column {
     padding: 20px;
     font-size: 15px;
+    text-decoration: none;
     
     }
   
@@ -197,8 +203,22 @@ header{
     
 }
 
-.pedido { /*por alguna razon no se aplica el estilo*/
+.color {
+    color: #665858;
+}
+
+#padding {
+    padding: 30px;
+}
+
+.pedidos { /*por alguna razon no se aplica el estilo*/
     font-size: 30px;
+    
+}
+
+.cuenta-container {
+    padding: 50px;
+    font-size: 20px;
 }
 /* #image105 {
 
@@ -214,9 +234,65 @@ header{
     
 } */
 
+
+/*carrito*/
+.carrito {
+    color: #4A5788;
+    padding: 2rem; 
+ }
+
+.container {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  .text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.contenedor {
+    text-align: center;
+
+}
+
+.buy {
+    background-color: #BC3636;
+    color: white;
+    border: none;
+    padding: 13px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110px;
+}
+
+.button-container {
+ 
+    display: flex;
+    align-items: center;
+  }
+
+  .button1 {
+    margin-left: 5px;
+    padding: 5px 15px;
+    background-color: #DAC7AA;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+/*footer2*/
+
 .footer1{
    
-    width: 1520px; height: 503px;
+    width: 1300px; height: 503px;
     /* margin-bottom: 10px; */
      /* left: 0px; top: 2958px; */
      position: absolute; 
@@ -227,26 +303,22 @@ header{
 .footer2{
     position: absolute;
     margin-top: 460px;
-    width: 1520px; 
-    height: 367px;
+    width: 1300px; 
+    height: 317px;
      background: #D9D9D9;
      
-}
-.paletapayaso{
-    background-image: url("imagen\image 105.png");
-    background-size: cover;
 }
 
 #footer_correo{
     left: 23.3%;
     position: absolute;
-    top: 272px;
-    height: 81px;
+    top: 252px;
+    height: 71px;
     width: 737px;
     border-width: 4px;
     border-style: solid;
     border-color: white;
-    font-size: 100%;
+    font-size: 20px;
     opacity: 0.85;
     background: white;
     color: rgb(4, 4, 4);
@@ -259,9 +331,9 @@ header{
      position: absolute;
     /*color: green;*/
     left: 990px;
-    top: 272px;  
+    top: 252px;  
     width: 161px;
-     height: 81px; 
+     height: 71px; 
      background: #FBE200; 
      border-radius: 40.50px;
      border-style: solid;
@@ -281,7 +353,7 @@ header{
    
     font-size: 70px;
     letter-spacing: 3px;
-    left: 442px; 
+    left: 352px; 
     top: 050px; 
     position: absolute; 
     text-align: center; 
