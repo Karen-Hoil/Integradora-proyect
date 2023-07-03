@@ -210,6 +210,11 @@ header{
     font-size: 30px;
     
 }
+
+.cuenta-container {
+    padding: 50px;
+    font-size: 20px;
+}
 /* #image105 {
 
     position: absolute;
