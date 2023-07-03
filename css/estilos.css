@@ -2,6 +2,8 @@
     margin: 0%;
     padding: 0%;
 }
+
+/* inicia header */
 .parte1 div{
     display:inline-block;
 }
@@ -135,10 +137,12 @@ header{
     font-size: 25px;
     margin-top: 13px;
  }
+
+ /* termina header */
  
 
 
- /*Esto es del footer*/
+ /*inicia footer*/
 
  footer{
     background-color: rgb(217, 217, 217);
@@ -297,4 +301,156 @@ header{
 #footer_correo::placeholder {
     font-size: 35px; /* Cambia el tamaño del texto del placeholder */
   }
+/* termina footer */
+
+
+/* INICIA LOGIN Y REGISTRO */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:sans-serif ;
+}
+body{
+    /* background-image: url(https://ganar-ganar.mx/wp-content/uploads/2022/04/ricolino.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+ main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+.contenedor_todo{
+    width: 100%;
+    background-image: url(https://us.123rf.com/450wm/ss1001/ss10011708/ss1001170800223/83441439-vector-la-ilustraci%C3%B3n-grunge-abstracto-fondo-azul-marino-y-cian-para-pa%C3%B1o-o-cartel.jpg); 
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+.caja_trasera{
+    width: 100%;
   
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,128,255,0.3);
+}
+.caja_trasera div{
+    margin: 100px 40px;
+    color: white;
+    transition: all 500ms;
+}
+.caja_trasera div p,
+.caja_trasera div button {
+    margin-top: 30px;
+}
+.caja_trasera div h3{
+    font-weight: 400;
+    font-size: 26px;
+}
+.caja_trasera button{
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px ;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+
+}
+.caja_trasera button:hover{
+    background: #fff;
+    color: #46A2FD;
+    
+} 
+ /* formularios  */
+.contenedor_login-registro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -185px;
+    left: 10px;
+    transform: left 500ms cubic-bezier(0.175,0.885,0.320,1.275);
+}
+.contenedor_login-registro form{
+    width: 100%;
+    padding: 80px 20px;
+    background: #fff;
+    position: absolute;
+    border-radius: 20px;
+    border: 2px solid #160eec; /* Establece el color y grosor del margen */
+}
+.contenedor_login-registro form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #46A2FD;
+}
+.contenedor_login-registro form input{
+    /* aqui no */
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+}
+.contenedor_login-registro form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: rgb(10, 103, 199, 100%);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.formulario_login{
+
+    opacity: 1;
+    display: block;
+
+}
+.formulario_registro{
+    display: none;
+}
+
+/* trabajando en el responsive desing */
+@media screen and (max-width:850px){
+    main{
+        margin-top: 50px;
+    }
+    .caja_trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .caja_trasera div{
+        margin:0px;
+        position: absolute;
+    }
+    /* formularios */
+    .contenedor_login-registro{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+    .contenedor_login-registro form{
+        position: relative;
+    }
+    
+}
+
+/* TERMINO EL LOGIN Y REGISTRO */
