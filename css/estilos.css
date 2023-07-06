@@ -239,6 +239,7 @@ header{
 .carrito {
     color: #4A5788;
     padding: 2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 
 .container {
@@ -287,6 +288,19 @@ header{
     text-decoration: none;
     color: #333;
     font-size: 14px;
+  }
+
+
+  /*menu de compra*/
+  .buy-1 {
+    background-color: #BC3636;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
   }
 /*footer2*/
 
