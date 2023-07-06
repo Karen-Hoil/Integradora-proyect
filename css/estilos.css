@@ -37,7 +37,7 @@ header{
 }
 .Nombre h1{
     color: white;
-    font-family: 'Kalam', cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
     font-size: 85px;
     letter-spacing: 15px;
@@ -399,7 +399,7 @@ header{
 }
 .contenedor_todo{
     width: 100%;
-    background-image: url(https://us.123rf.com/450wm/ss1001/ss10011708/ss1001170800223/83441439-vector-la-ilustraci%C3%B3n-grunge-abstracto-fondo-azul-marino-y-cian-para-pa%C3%B1o-o-cartel.jpg); 
+    background-color: #0A67C7;
     max-width: 800px;
     margin: auto;
     position: relative;
@@ -411,7 +411,7 @@ header{
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
-    background-color: rgba(0,128,255,0.3);
+    background-color: rgba(6, 2, 250, 0.3);
 }
 .caja_trasera div{
     margin: 100px 40px;
