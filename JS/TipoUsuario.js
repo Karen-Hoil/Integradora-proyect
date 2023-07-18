@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var url = 'http://localhost:3001/TipoUsuario'
+    var url = 'http://localhost:3001/TipoUsuario/'
     var opcion = null;
     var id_TipoUsuario, Tipos, id_usuario_id, fila
     var tablaTipoUsuario = $('#tablaTipoUsuario').DataTable({
@@ -38,10 +38,10 @@ $(document).on("click", ".btnEditarTipoUsuario", function(){
     fila = $(this).closest("tr");	        
     id_TipoUsuario = parseInt(fila.find('td:eq(0)').text());
     Tipos = fila.find('td:eq(1)').text();
-    id_usuario_id = fila.find('td:eq(3)').text();            
-    $("#id_tipoUsuario").val(id_TipoUsuario);
+    id_usuario_id = fila.find('td:eq(2)').text();            
+    $("#id_TipoUsuario").val(id_TipoUsuario);
     $("#Tipos").val(Tipos);
-    $("#id_usuario").val(id_usuario_id);            
+    $("#id_usuario_id").val(id_usuario_id);            
     $(".modal-header").css("background-color", "#7303c0");
     $(".modal-header").css("color", "white" );
     $(".modal-title").text("Editar tipo de usuario");		

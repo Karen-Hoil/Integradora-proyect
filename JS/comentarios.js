@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var url = 'http://localhost:3001/comentarios'
+    var url = 'http://localhost:3001/comentarios/'
     var opcion = null;
     var id_comentarios, comentarios, id_producto_id, id_usuario_id, fila
     var tablaComentarios = $('#tablaComentarios').DataTable({
