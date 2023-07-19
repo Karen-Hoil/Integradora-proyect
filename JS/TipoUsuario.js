@@ -41,7 +41,7 @@ $(document).on("click", ".btnEditarTipoUsuario", function(){
     id_usuario_id = fila.find('td:eq(2)').text();            
     $("#id_TipoUsuario").val(id_TipoUsuario);
     $("#Tipos").val(Tipos);
-    $("#id_usuario_id").val(id_usuario_id);            
+    $("#id_usuario").val(id_usuario_id);            
     $(".modal-header").css("background-color", "#7303c0");
     $(".modal-header").css("color", "white" );
     $(".modal-title").text("Editar tipo de usuario");		
@@ -99,6 +99,6 @@ $('#formTipoUsuario').submit(function(e){
             }
         });	
     }        		        
-    $('#modalCRUD-2').modal('hide');											     			
+    $('#modalCRUD-2').modal('hide');											     			
 });
 });
